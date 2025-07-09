@@ -26,4 +26,5 @@ The UI output for this task can be designed in a clean and minimalistic style, s
 This task not only builds technical skills but also demonstrates how human-computer interaction can be made smoother and more natural through voice. It emphasizes the importance of designing user-friendly AI systems that can understand human input seamlessly. The project can be further enhanced by adding features like multi-language support, voice command execution, or saving the transcript for future use.
 In conclusion, this task gives a strong foundation in applying artificial intelligence to real-world applications. By converting speech to text, we open doors to countless possibilities in accessibility, automation, and interactive systems. It marks a significant step in developing smarter, more intuitive applications powered by AI.
 *OUTPUT*
+![Image](https://github.com/user-attachments/assets/fcc2430b-2d71-4797-9f26-41f4d34d31c3)
 
