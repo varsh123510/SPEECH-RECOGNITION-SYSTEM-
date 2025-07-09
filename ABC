@@ -1,0 +1,28 @@
+pip install SpeechRecognition pyaudio
+import speech_recognition as sr
+
+def speech_to_text():
+    # Initialize recognizer
+    recognizer = sr.Recognizer()
+
+    # Use microphone as source
+    with sr.Microphone() as source:
+        print("🎤 Speak something...")
+
+        # Listen to the audio
+        audio = recognizer.listen(source)
+
+        print("🧠 Recognizing...")
+
+        try:
+            # Convert speech to text using Google API
+            text = recognizer.recognize_google(audio)
+            print(f"📝 You said: {text}")
+        except sr.UnknownValueError:
+            print("❌ Sorry, I could not understand the audio.")
+        except sr.RequestError as e:
+            print(f"🔌 Could not request results; {e}")
+
+# Run the function
+if __name__ == "__main__":
+    speech_to_text()
